@@ -1,0 +1,44 @@
+# Logs et fichiers temporaires
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Dossiers de dépendances
+node_modules/
+jspm_packages/
+
+# Sorties de build (Node ou front)
+dist/
+build/
+out/
+.temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Fichiers d'environnement
+.env
+.env.*.local
+
+# Systèmes d'OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+*.local.yml
+*.env.*  # si tu stockes des fichiers .env spécifiques au docker
+
+# Éditeur/IDE
+.vscode/
+.idea/
+*.sw?
+
+# Fichiers générés par un bundler/outils
+coverage/
+*.coverage
