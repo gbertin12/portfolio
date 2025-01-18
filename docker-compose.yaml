@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+
+  backend:
+    build: ./backend
+    container_name: mon-backend
+    ports:
+      - "5001:5001"
+    # Pour du dev : monter le code en volume (voir plus bas)
+    volumes:
+      - ./backend:/app
+    # environment:
+    #   - NODE_ENV=development
+
+  frontend:
+    build: ./frontend
+    container_name: mon-frontend
+    ports:
+      - "5173:5173"
+    # Pour du dev : monter le code en volume
+    volumes:
+      - ./frontend:/app
+      - node_modules:/app/node_modules
+    # Le container tourne "npm run dev" qui lance Vite/CRA
+    command: npm run dev
+    # depends_on:
+    #   - backend
+volumes:
+  node_modules:
