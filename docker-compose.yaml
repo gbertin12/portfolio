@@ -1,29 +1,43 @@
 version: '3.8'
 services:
 
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+
   backend:
     build: ./backend
     container_name: mon-backend
     ports:
       - "5001:5001"
-    # Pour du dev : monter le code en volume (voir plus bas)
+    depends_on:
+      - mongodb
     volumes:
       - ./backend:/app
-    # environment:
-    #   - NODE_ENV=development
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+    environment:
+      - NODE_ENV=development
+      - MONGO_URI=mongodb://admin:password@mongodb:27017/articlesdb
 
   frontend:
     build: ./frontend
     container_name: mon-frontend
     ports:
       - "5173:5173"
-    # Pour du dev : monter le code en volume
+    depends_on:
+      - backend
     volumes:
       - ./frontend:/app
-      - node_modules:/app/node_modules
-    # Le container tourne "npm run dev" qui lance Vite/CRA
-    command: npm run dev
-    # depends_on:
-    #   - backend
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+
 volumes:
-  node_modules:
+  mongodb-data:
