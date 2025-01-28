@@ -18,7 +18,7 @@ export default function Blog() {
     const [articles, setArticles] = useState<Article[]>([]);
 
     useEffect(() => {
-    fetch('articles.json')
+    fetch('/articles.json')
         .then((res) => res.json())
         .then((data: Article[]) => setArticles(data))
         .catch((err) => console.error(err));

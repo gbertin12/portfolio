@@ -29,10 +29,11 @@ export default function Article() {
         return <p>Article non trouvé !</p>;
     }
     return (
-        <div>
-            <h1>{article.title}</h1>
-            <p>{article.content}</p>
-            <small>{article.date} - {article.theme}</small>
+        <div className='max-w-[80%] md:max-w-[70%] lg:max-w-[50%] mx-auto'>
+            <h1 className=' py-3 font-bold text-4xl'>{article.title}</h1>
+            <p className='pb-8 text-grey-700 font-light text-xs'>{article.date} - {article.theme}</p>
+            <hr className='pb-6' />
+            <p className=' prose prose-lg text-justify'>{article.content}</p>
         </div>
     );
 }
