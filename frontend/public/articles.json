@@ -3,23 +3,23 @@
     {
         "id": 1,
         "date": "2021-01-01",
-        "theme": "Theme 1",
-        "title": "Article 1",
+        "theme": "blockchain",
+        "title": "Blockchain",
         "content": "« gardien » de l’EL (Carney et Getz, 2009 ; Chabanet et al., 2017), il doit s’assurer de la diffusion de la vision et des valeurs (ibid.). Un second groupe de publications s’inté- resse à la généalogie et la raison d’être de l’EL. La revue systématique montre que l’EL s’est construite en réaction au taylo- risme et à la bureaucratie wébérienne. Elle vient en opposition frontale avec les modèles hiérarchiques de type « X » lui préférant une vision plus humaniste, héritée des organisations de type « Y » (McGregor, 1960 ; Carney et Getz, 2009 ; Colle et al., 2017 ; Getz, 2009, 2016b). Par exemple, Gilbert et al. (2017b, p. 43) s’interrogent sur une concordance de l’EL avec le management participatif. Selon eux, il ne s’agit ni d’un « avatar » ni d’un « remake » du management participatif mais plutôt d’un prolongement. Des proximités sont établies avec les équipes autonomes (Bernstein et al., 2016), les organisations par projets (Foss, 2003 ; Lam, 2005), les approches organisationnelles portant l’accent sur la notion d’autonomie (Colle et al., 2017). Enfin, un dernier pan de la littérature s’interroge sur les effets de l’EL. Il met l’accent sur un décalage possible entre les effets recherchés et produits notamment en matière de performance sociale, de qualité de vie au travail ou de changements technolo- giques (Colle et al., 2017 ; Ramboarison- Lalao et Gannouni, 2018). Selon certains auteurs, des déviances sont possibles, ce mode de fonctionnement pouvant être source de manipulations (Jacquinot et Pellissier- Tanon, 2015). Le nombre de travaux est encore limité alors que la question des effets suscite de réels débats. À l’exception de quelques rares études (Colle et al., 2017 ; Picard, 2015 ; Ramboarison-Lalao et Gannouni, 2018), les recherches sur l’EL n’ont pas cherché à valider ou infirmer les effets positifs sur la performance économique et sociale mis en avant par Getz (2009). L’effet sur la performance économique n’est aujourd’hui pas étudié ou n’est traité que de manière secondaire (e.g. Foss, 2003 ; Verona et Ravasi, 2003). Il n’existe également aucune étude quantitative sur le sujet. L’ensemble des cadres théoriques et concep- tuels mobilisés au sein de ces thématiques et questionnements associés atteste d’une grande fragmentation (cf. tableau 3). Ce constat pourrait conduire à l’assimilation de l’EL à un « concept parapluie » (Hirsch et Levin, 1999), « n’éclairant rien car éclairant trop de choses » (Dumez, 2011, p. 67). Toutefois, la présence de différents cadres d’interprétation, d’approches et de théories à la fois complémentaires et concurrentes fournit une première évidence de l’utilité théorique de l’EL et peut signaler plus largement la construction d’un champ de recherche (Pfeffer, 1993). En conclusion, le critère d’utilité théorique sature au regard de la diversité des questionnements soulevés et des cadres théoriques mobilisés, témoignant d’un effort réel de développement théorique autour de cet objet (cf. tableau 3). Au-delà de l’utilité théorique de l’EL, notre classification de la littérature sur l’EL permet de dégager trois perspectives de recherche5 bien distinctes qui montrent sa contribution à la formation d’un champ de recherche au croisement du management stratégique et de",
         "imageSrc": "imagesArticles/1"
     },
     {
         "id": 2,
         "date": "2021-01-02",
-        "theme": "Theme 2",
-        "title": "Article 2",
+        "theme": "economie",
+        "title": "Economie",
         "content": "Content of article 2",
         "imageSrc": "imagesArticles/2"
     },
     {
         "id": 3,
         "date": "2021-01-03",
-        "theme": "Theme 3",
+        "theme": "ecologie",
         "title": "Article 3",
         "content": "Content of article 3",
         "imageSrc": "imagesArticles/3"

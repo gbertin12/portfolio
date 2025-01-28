@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="sr-only">Gaël Bertin</span>
             <img
               className="h-8 w-auto"
-					    src="logo.svg"
+					    src="/logo.svg"
 					    alt="Home"
 				    />
           </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="logo.svg"
+                src="/logo.svg"
                 className="h-8 w-auto"
               />
             </a>
