@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "date": "2021-01-01",
+        "theme": "Theme 1",
+        "title": "Article 1",
+        "content": "Content of article 1",
+        "imageSrc": "imagesArticles/1"
+    },
+    {
+        "id": 2,
+        "date": "2021-01-02",
+        "theme": "Theme 2",
+        "title": "Article 2",
+        "content": "Content of article 2",
+        "imageSrc": "imagesArticles/2"
+    },
+    {
+        "id": 3,
+        "date": "2021-01-03",
+        "theme": "Theme 3",
+        "title": "Article 3",
+        "content": "Content of article 3",
+        "imageSrc": "imagesArticles/3"
+    }  
+]
